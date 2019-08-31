@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="stylesheet.css">
+
+<script src="script.js"></script>
+</head>
+<body>
+  <h1> Splitting Money for Stuff </h1>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+      <textarea class="form-control" id="nameList" rows="10"></textarea>
+      <br>
+      <button class="btn btn-primary" onClick="addName()">Add Names</button>
+      <button class="btn btn-success" onClick="addItems()">Start Adding Items</button>
+
+    </div>
+    <div class="col">
+      <table id="nameTable">
+      </table>
+  </div>
+  </div>
+  <div class="row">
+    <div class = "col">
+      Instructions:
+      <br>
+      1.) Using the text box, add names like the following example:
+      <br>
+      Person 1
+      <br>
+      Person 2
+      <br>
+      Person 3
+      <br>
+      2.) Press the Add Names button.
+      <br>
+      3.) Press Start Adding Items button.
+      <br>
+      4.) The browser should prompt you to input item prices. Input the price of item without the dollar sign. Press the OK button when done.
+      <br>
+      5.) Using the numbers assigned to each person, insert each person's number who is paying for said item.
+      <br>
+      6.) Repeat steps 4-5 and when there are no items left, do not input anything when it asks you for the price and press the OK button.
+      <br>
+      7.) The number of dollars each person should contribute will be on the side.
+    </div>
+  </div>
+</div>
+</body>
+</html>
